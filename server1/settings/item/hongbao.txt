@@ -1,0 +1,52 @@
+Name	Type	Genre	Detail	Particular	Serise	Level	Param1	Param2	Param3	Param4	Param5	Param6	Proba	Costly	Msg	Log
+Tiкn Th╢o Lщ 	1	6	1	71	0	1	0						200000	0	<player> mы Th╟n b▌ з╣i Hхng Bao, nh╦n онюc 1 <name>.	1
+Tiкn Th╢o Lщ 	1	6	1	71	0	1	0						5000	0	<player> mы Th╟n b▌ з╣i Hхng Bao, nh╦n онюc 1 <name>.	1
+Tiкn Th╢o Lщ 	1	6	1	71	0	1	0						5000	0	<player> mы Th╟n b▌ з╣i Hхng Bao, nh╦n онюc 1 <name>.	1
+Tiкn Th╢o Lщ 	1	6	1	71	0	1	0						5000	0	<player> mы Th╟n b▌ з╣i Hхng Bao, nh╦n онюc 1 <name>.	1
+Tiкn Th╢o Lщ 	1	6	1	71	0	1	0						5000	0	<player> mы Th╟n b▌ з╣i Hхng Bao, nh╦n онюc 1 <name>.	1
+Tiкn Th╢o Lщ 	1	6	1	71	0	1	0						5000	0	<player> mы Th╟n b▌ з╣i Hхng Bao, nh╦n онюc 1 <name>.	1
+Tiкn Th╢o Lщ 	1	6	1	71	0	1	0						5000	0	<player> mы Th╟n b▌ з╣i Hхng Bao, nh╦n онюc 1 <name>.	1
+Tiкn Th╢o Lщ 	1	6	1	71	0	1	0						5000	0	<player> mы Th╟n b▌ з╣i Hхng Bao, nh╦n онюc 1 <name>.	1
+Tiкn Th╢o Lщ 	1	6	1	71	0	1	0						5000	0	<player> mы Th╟n b▌ з╣i Hхng Bao, nh╦n онюc 1 <name>.	1
+Tiкn Th╢o Lщ 	1	6	1	71	0	1	0						5000	0	<player> mы Th╟n b▌ з╣i Hхng Bao, nh╦n онюc 1 <name>.	1
+Tiкn Th╢o Lщ 	1	6	1	71	0	1	0						1000	1	<player> mы Th╟n b▌ з╣i Hхng Bao, nh╦n онюc 1 <name>.	1
+Tiкn Th╢o Lщ 	1	6	1	71	0	1	0						1000	1	<player> mы Th╟n b▌ з╣i Hхng Bao, nh╦n онюc 1 <name>.	1
+TЎ Thёy Tinh	1	4	239	1	0	1	0						6000	1	<player> mы Th╟n b▌ з╣i Hхng Bao, nh╦n онюc 1 <name>.	1
+Lam Thёy Tinh	1	4	238	1	0	1	0						6000	1	<player> mы Th╟n b▌ з╣i Hхng Bao, nh╦n онюc 1 <name>.	1
+LЇc Thёy Tinh	1	4	240	1	0	1	0						6000	1	<player> mы Th╟n b▌ з╣i Hхng Bao, nh╦n онюc 1 <name>.	1
+Tinh Hхng B╢o Th╣ch	1	4	353	1	0	1	0						10000	1	<player> mы Th╟n b▌ з╣i Hхng Bao, nh╦n онюc 1 <name>.	1
+Phєc Duyкn Lщ (з╣i) 	1	6	1	124	0	1	0						160000	0	<player> mы Th╟n b▌ з╣i Hхng Bao, nh╦n онюc 1 <name>.	1
+Phєc Duyкn Lщ (Trung) 	1	6	1	123	0	1	0						200000	0	<player> mы Th╟n b▌ з╣i Hхng Bao, nh╦n онюc 1 <name>.	1
+Phєc Duyкn Lщ (Ti╙u) 	1	6	1	122	0	1	0						100000	0	<player> mы Th╟n b▌ з╣i Hхng Bao, nh╦n онюc 1 <name>.	1
+Thiкn sмn  B╢o Lщ 	1	6	1	72	0	1	0						121400	0	<player> mы Th╟n b▌ з╣i Hхng Bao, nh╦n онюc 1 <name>.	1
+B╕ch Qu╢ Lщ 	1	6	1	73	0	1	0						100000	0	<player> mы Th╟n b▌ з╣i Hхng Bao, nh╦n онюc 1 <name>.	1
+Thi╒t La H╕n	1	6	1	23	0	1	0						10000	0	<player> mы Th╟n b▌ з╣i Hхng Bao, nh╦n онюc 1 <name>.	1
+Phi Phong	1	6	1	15	0	1	0						3000	0	<player> mы Th╟n b▌ з╣i Hхng Bao, nh╦n онюc 1 <name>.	1
+Tiкn Th╢o Lщ 	1	6	1	71	0	1	0						200	0	<player> mы Th╟n b▌ з╣i Hхng Bao, nh╦n онюc 1 <name>.	1
+Tiкn Th╢o Lщ 	1	6	1	71	0	1	0						200	0	<player> mы Th╟n b▌ з╣i Hхng Bao, nh╦n онюc 1 <name>.	1
+Tiкn Th╢o Lщ 	1	6	1	71	0	1	0						200	0	<player> mы Th╟n b▌ з╣i Hхng Bao, nh╦n онюc 1 <name>.	1
+Tiкn Th╢o Lщ 	1	6	1	71	0	1	0						200	0	<player> mы Th╟n b▌ з╣i Hхng Bao, nh╦n онюc 1 <name>.	1
+Tiкn Th╢o Lщ 	1	6	1	71	0	1	0						200	0	<player> mы Th╟n b▌ з╣i Hхng Bao, nh╦n онюc 1 <name>.	1
+Tiкn Th╢o Lщ 	1	6	1	71	0	1	0						200	0	<player> mы Th╟n b▌ з╣i Hхng Bao, nh╦n онюc 1 <name>.	1
+Tiкn Th╢o Lщ 	1	6	1	71	0	1	0						200	0	<player> mы Th╟n b▌ з╣i Hхng Bao, nh╦n онюc 1 <name>.	1
+Tiкn Th╢o Lщ 	1	6	1	71	0	1	0						200	0	<player> mы Th╟n b▌ з╣i Hхng Bao, nh╦n онюc 1 <name>.	1
+Tiкn Th╢o Lщ 	1	6	1	71	0	1	0						200	0	<player> mы Th╟n b▌ з╣i Hхng Bao, nh╦n онюc 1 <name>.	1
+Tiкn Th╢o Lщ 	1	6	1	71	0	1	0						200	0	<player> mы Th╟n b▌ з╣i Hхng Bao, nh╦n онюc 1 <name>.	1
+Tiкn Th╢o Lщ 	1	6	1	71	0	1	0						200	0	<player> mы Th╟n b▌ з╣i Hхng Bao, nh╦n онюc 1 <name>.	1
+Tiкn Th╢o Lщ 	1	6	1	71	0	1	0						200	0	<player> mы Th╟n b▌ з╣i Hхng Bao, nh╦n онюc 1 <name>.	1
+Tiкn Th╢o Lщ 	1	6	1	71	0	1	0						200	0	<player> mы Th╟n b▌ з╣i Hхng Bao, nh╦n онюc 1 <name>.	1
+Tiкn Th╢o Lщ 	1	6	1	71	0	1	0						200	0	<player> mы Th╟n b▌ з╣i Hхng Bao, nh╦n онюc 1 <name>.	1
+Tiкn Th╢o Lщ 	1	6	1	71	0	1	0						200	0	<player> mы Th╟n b▌ з╣i Hхng Bao, nh╦n онюc 1 <name>.	1
+Tiкn Th╢o Lщ 	1	6	1	71	0	1	0						200	0	<player> mы Th╟n b▌ з╣i Hхng Bao, nh╦n онюc 1 <name>.	1
+Tiкn Th╢o Lщ 	1	6	1	71	0	1	0						200	0	<player> mы Th╟n b▌ з╣i Hхng Bao, nh╦n онюc 1 <name>.	1
+Tiкn Th╢o Lщ 	1	6	1	71	0	1	0						200	0	<player> mы Th╟n b▌ з╣i Hхng Bao, nh╦n онюc 1 <name>.	1
+Tiкn Th╢o Lщ 	1	6	1	71	0	1	0						200	0	<player> mы Th╟n b▌ з╣i Hхng Bao, nh╦n онюc 1 <name>.	1
+Tiкn Th╢o Lщ 	1	6	1	71	0	1	0						200	0	<player> mы Th╟n b▌ з╣i Hхng Bao, nh╦n онюc 1 <name>.	1
+Tiкn Th╢o Lщ 	1	6	1	71	0	1	0						200	0	<player> mы Th╟n b▌ з╣i Hхng Bao, nh╦n онюc 1 <name>.	1
+Tiкn Th╢o Lщ 	1	6	1	71	0	1	0						200	0	<player> mы Th╟n b▌ з╣i Hхng Bao, nh╦n онюc 1 <name>.	1
+Tiкn Th╢o Lщ 	1	6	1	71	0	1	0						200	0	<player> mы Th╟n b▌ з╣i Hхng Bao, nh╦n онюc 1 <name>.	1
+Tiкn Th╢o Lщ 	1	6	1	71	0	1	0						200	0	<player> mы Th╟n b▌ з╣i Hхng Bao, nh╦n онюc 1 <name>.	1
+Tiкn Th╢o Lщ 	1	6	1	71	0	1	0						200	0	<player> mы Th╟n b▌ з╣i Hхng Bao, nh╦n онюc 1 <name>.	1
+Tiкn Th╢o Lщ 	1	6	1	71	0	1	0						200	0	<player> mы Th╟n b▌ з╣i Hхng Bao, nh╦n онюc 1 <name>.	1
+Tiкn Th╢o Lщ 	1	6	1	71	0	1	0						200	0	<player> mы Th╟n b▌ з╣i Hхng Bao, nh╦n онюc 1 <name>.	1
+Tiкn Th╢o Lщ 	1	6	1	71	0	1	0						200	0	<player> mы Th╟n b▌ з╣i Hхng Bao, nh╦n онюc 1 <name>.	1

@@ -1,0 +1,72 @@
+--IncludeLib("FILESYS") : de dung dc ham doc file
+--IncludeLib("TASKSYS"): DE DUNG TASK SYS FILE
+TabFile_GetRowCount(path or tªn file muèn ®Æt) : count data trong file 
+TabFile_GetCell(path or tªn file muèn ®Æt,nRow,zNameRow) : dïng ®Ó lÊy th«ng tin t?ng roll mÆc ®?nh bëi tªn ®Çu tiªn cña row
+TabFile_Load(path,tªn file muèn ®Æt(vd: "duong")) : kiÓm tra file c? tån t¹i ko (1: c?, 0: ko)
+SetAutoHangMapFlag(id so ) : 1 cÊm b¸n hµng + chat trªn mäi tÇng sè
+CountFreeRoomByWH(width,height) : t?nh « trèng trong r­¬ng by chi?u dµi vµ réng
+CalcFreeItemCellCount() : ®?m kho¶ng trèng trong hµnh trang by « (1 by 1)
+CreateTaskSay({"<dec><npc>".." string want to say","ket thuc/oncancel"})
+GetAccount() : hµm lÊy id ®Ó ®¨ng nhËp nh©n vËt
+GetLocalDate("%y%m%d") : lÊy ngµy th¸ng cña computer
+CreateNewSayEx(zTile,tbOption) : t¹o mét hµm say nh­ sau
+zTile = "test string"
+tbOption = 
+{
+{"Option name",function option,paramate}
+}
+ITEM_SetExpiredTime(ItemIndex, 10080);
+
+SyncItem(ItemIndex); dïng sau khi set thêi gian expired cho 1 trang b? hoÆc 1 vËt phÈm nµo.
+
+SetItemBindState(index,-2) : kh?a b¶o hiÓm vÜnh viÔn (index = AddItem(...) )
+
+GetItemName(nItemIdx) : dïng ®Ó lÊy tªn vËt phÈm.
+
+RemoveItemByIndex(nItemIdx) : x?a vËt phÈm by index.
+
+CalcEquiproomItemCount( 6, 1, Id VËt PhÈm, CÊp §é ) : ®?m sè l­îng vËt phÈm x?p chång trong r­¬ng dïng cho hµm AddItem(6,1,0...)
+
+ConsumeEquiproomItem(sè l­îng tr?,6,1,Id VËt PhÈm,-1): del vËt phÈm x?p chång dïng cho vËt phÈm AddItem(6..)
+
+CalCEquiproomItem(4,id vËt phÈm,1,-1) : ®?m sè l­îng x?p chång cho vËt phÈm questkey
+
+ConsumEquiproomItem(sè l­îng,4,id vËt phÈm,1,-1): del vËt phÈm x?p chång dïng cho questkey
+
+ConsumeItem(3,1,lo¹i vËt phÈm (4, or 6 or item),1,Id VËt PhÈm,-1): dïng ®Ó kiÓm tra vËt phÈm c? hay ko n?u c? th× return 1 vµ x?a lun vËt phÈm hoÆc trang bi
+
+ConsumeItem(-1,nItemCount,tbProp[1],tbProp[2],tbProp[3],-1): dïng ®Ó ®?m sè l­îng(c¶ stack) Item 6 c? bao nhiªu n?u ®óng sè l­îng nItemCount(lÊy t? CalcItemCount) lµ 1 if not -1, then n? del vËt phÈm ®?. 
+
+CalcItemCount(-1,tbProp[1],tbProp[2],tbProp[3],-1): lÊy sè l­îng Item stack cña item 6 trong b¶ng giao
+
+CalcItemCount(3,tbProp[1],tbProp[2],tbProp[3],-1): n?u return 0: kh«ng or 1: c? : dïng ®Ó x¸c ®?nh c? vËt phÈm ®? trong b¶ng giao ko .
+
+GiveItemUI("tªn cña b¶n giao","chó th?ch cña b¶ng giao","function de thùc hiÖn b¶ng giao") : b¶ng giao vËt phÈm or trang b?
+
+GetItemBindState(nItemIndex) : lÊy t×nh tr¹ng cña vËt phÈm (kh?a hay ko kh?a)
+
+GetGiveItemUnit(nItemRoom) : tr¶ l¹i lÊy index cña vËt phÈm bá vµo b¶ng giao return IndexItem,nItemRoom: sè « cña vËt phÈm bá vµo b¶ng giao
+
+GetItemProp(index item) : return particular,kind of vËt phÈm,id vËt phÈm
+
+GetItemStackCount(idxItem): return sè l­îng item x?p chång bá vµo b¶ng giao by index vËt phÈm bá vµo
+
+GetItemQuality(nItemIndex) : return lo¹i trang b? bá vµo b¶ng giao bëi index.
+
+GetItemName(nItemIndex): return l¹i tªn cña vËt phÈm hoÆc trang b? bá vµo bëi index
+
+DisabledUseTownP(0 or 1) : kh?a sö dông thæ ®?a phï : 0 më 1: kh?a
+
+ForbidChangePK(0 or 1) : kh?a pk 1: kh?a ,0 : ko
+
+Msg2Map(id map,str) : dïng th«ng b¸o tin nh¾n ®?n nh©n vËt trong 1 map nµo ®?
+
+OfflineLive(PlayerIndex) : dïng ®Ó out nh©n vËt d¹ng ñy th¸c.
+
+GetLastDiagNpc(); return index npc ®èi tho¹i
+
+GetNpcName(nNpcIndex) : return tªn npc ®èi tho¹i b»ng index
+
+SetMissionS(id, Name): Dïng ®Ó add tªn cña nh©n vËt ë d¹ng task mission
+
+GetMissionS(id) : lÊy tªn nh©n vËt ®­îc set b»ng missions s b»ng id

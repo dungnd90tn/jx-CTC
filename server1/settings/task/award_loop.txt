@@ -1,0 +1,5 @@
+Name	Quality	Genre	Detail	Particular	GoodsFive	Level	Magiclevel	TaskValue	
+Tiªn Th¶o Lé 	0	6	1	71	0	1	0	2000000	
+Tö Thñy Tinh	0	4	239	1	0	1	0	10000	
+Tö Thñy Tinh	0	4	239	1	0	1	0	10000	
+Lam Thñy Tinh	0	4	238	1	0	1	0	10000	

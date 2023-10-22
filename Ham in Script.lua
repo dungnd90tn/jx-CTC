@@ -1,0 +1,816 @@
+JoinMission InitMission EndMission RunMission DynamicExecute DynamicExecuteByPlayer OB_Create OB_Release OB_Copy OB_Append OB_Clear OB_IsEmpty OB_PushString OB_PopString OB_PushDouble OB_PopDouble OB_PushByte OB_PopByte OB_PushInt OB_PopInt DbgPoint TestScript IncludeLib Include ReplaceString AppendString LeftFillString RightFillString AroundFillString LeftTrimString RightTrimString GetBit GetByte SetBit SetByte Number2Int Number2UInt Say PutMessage AddGlobalNews AddGlobalTimeNews AddGlobalCountNews AddLocalNews AddLocalTimeNews AddLocalCountNews Describe EnchaseItem GetItemParam GetItemAllParams SetSpecItemParam GetItemProp GetItemLevel GetItemSeries GetItemQuality GetTotalMagicLevel GetRepairDurPrice GetItemName GetItemPrice GetGlodEqIndex GetPlatinaEquipIndex GetItemWidth GetItemHeight GetQuestion GetQuestionTip GetChooseCount GetQuestionPrice GetChoose GetQEndTime GetQBeginTime HaveMagic PlayMusic FadeInMusic FadeOutMusic FileName2Id String2Id GetStringTask SetStringTask GetCurrentTime Tm2Time Time2Tm FormatTime2Number FormatTime2String FormatTime2Date GetSkillName MagicAttrib2Str SetRandSeed C_Random NpcChat GetServiceMatchID GetAroundNpcList GetLastFactionNumber GetProductLanguge GetProductRegion SetNpcTimer GetNpcTimer IsOpeningModule NpcName2Replace ObjName2Relace GetGoldCoinCount GetCurServerTime GetAroundPlayerList GetNpcAroundPlayerList GetMapPlayerList GetTiredDegree GetTireTime GetRelaxTime SetTireTime SetRelaxTime GetGateWayClientID GetLocalDate GetLocalTime MakeDateTime GetNewBulletin SetSex SetGlbValue GetGlbValue AddRepute GetRepute GetNpcIdx GetTimerId IsCaptain GetTeam GetTeamSize LeaveTeam GetTeamMember ChangeTeamFeature Msg2Faction GMMsg2Player Msg2Team Msg2Tong Msg2SubWorld Msg2Map Msg2Region Msg2GM Msg2IP UpdateSDBRecord GetInfo GetIP GetAccount SetPos GetPos AutoStackItem GetWorldPos NewItemEx AddItem AddItemIntoEquipmentBox AddItemNoStack AddVerItem AddItemEx GetItemCmd HandItemIdx AddPlatinaItem AddTempItem AddQualityItem AddStackItem DelItem DelCommonItem DelItemEx DropItem DropItemEx NpcDropMoney GetItemLife HaveItem HaveCommonItem GetItemCount GetItemCountEx GetTotalItemCount AddItemByIndex RemoveItemByIndex SaveMaskFeature GetMaskFeature GetOrgMaxDurability SetMaxDurability GetMaxDurability GetCurDurability EH_SetCurDurability GetItemGenTime UnBindItem GetItemBindState SetItemBindState GetItemBelong FindSpecItemParam2 SyncItem SyncNpc IsItemStackable GetItemMagicLevel IsSeriesConquer IsSeriesAccrue GetConquerSeries GetAccrueSeries SetItemNewFeature GetItemMaxStackCount GetItemStackCount SetItemStackCount CalcEquiproomItemCount GetNextItemIndexInRoom GetAllEquipment GetRoomItems ConsumeEquiproomItem CalcItemCount ConsumeItem GetItemMagicAttrib SetItemMagicLevel GetItemExchangeValue SetItemExchangeValue GetItemFortuneValue SetItemFortuneValue SetPlayerFortuneRank GetPlayerFortuneRank IsMyItem CalcFreeItemCellCount FindFreeRoomByWH CountFreeRoomByWH ThrowAllItem SetDupedDealLevel SetDelDupedAllInOne GetDupedDealLevel GetDelDupedAllInOne FoundryItem PreviewPlatinaFromGold PreviewPlatinaUpgrade GetItemMagicDesc UpgradePlatinaFromGoldItem UpgradePlatinaItem GetPlatinaLevel AddMoneyObj SubWorldID2Idx SubWorldIdx2ID SubWorldIdx2MapCopy SetWorldName SetMapType SetMapParam GetMapType GetMapParam GetFirstPlayerAtSW GetNextPlayerAtSW GetFirstPlayerAtServer GetNextPlayerAtServer GetAutoHangExpValue SetDisabledFuncFlag GetDisabledFuncFlag IsDisabledChatWorld IsDisabledChatCity IsDisabledTeam IsDisabledStall IsDisabledUseTownP IsDisabledUseHeart SetAutoHangMapFlag SetAutoHangFreeFlag AddItemForAutoHang CalcAutoHangPlayerCount TimerFuncForAutoHang AddLeadExp GetLeadLevel SetFightState GetFightState GetNpcKind SetNpcKind AddNpc AddNpcEx DelNpc GetNpcId SetNpcScript GetNpcScript GetNpcDropRateFile GetMapDropRateFile SetNpcParam GetNpcParam GetNpcName GetNpcSeries GetNpcLife GetNpcPos GetNpcSettingIdx GetNpcPowerType NpcWalk SetNpcActiveRegion SetRevPos SetTempRevPos RevID2WXY GetPlayerRev GetCamp SetCurCamp SetCamp RestoreCamp GetFaction SetFaction GetLastAddFaction GetColdR SetColdR GetFireR SetFireR GetLightR SetLightR GetPoisonR SetPoisonR GetPhyR SetPhyR AddOwnExp StackExp GetLevelExp ReduceOwnExp GetLife RestoreLife GetMana RestoreMana GetStamina RestoreStamina GetDefend SetSeries GetUUID GetLeadExp GetRestAP GetRestSP GetLucky SetLucky GetEng GetDex GetStrg GetVit AddEng AddDex AddStrg AddVit GetPlayerMagicAttrib SetLastFactionNumber GetProtectTime SetProtectTime GetCash Earn PrePay GetCashCoin PayCoin ExeScript AttackNpc KillNpc KillNpcWithIdx Sale CreateStores AddShop2Stores OpenStores GetDynamicShopID TRepair OpenHelp Repair_Open UseTownPortal ReturnFromPortal GetNpcCurCamp SetNpcCurCamp OpenBox AddStation DelStationList AddTermini GetStation GetStationCount GetLastDiagNpc GetLastDlgNpc GetCityCount GetCity GetWayPoint GetStationName GetWayPointName GetPrice2Station GetPrice2WayPoint GetStationPos GetWayPointPos GetPlayerCount GetRank SetRank SetPropState GetWharfName GetWharfCount GetWharfPrice GetWharf GetWharfPos GetTerminiFState KickOutPlayer KickOutSelf SetChatFlag GetSkillCount GetSkillId AddMagic DelMagic AddTempMagic SetImmedSkill GetCurrentMagicLevel SetSkillLevel GetAllSkillCurInc GetSkillMaxLevel GetSkillExp AddSkillExp GetSkillNextExp Add120SkillExp Set120SkillID Clear120SkillExpLimit AddMagicPoint GetMagicPoint GetTotalSkill RollbackSkill UpdateSkill ForbitAura NpcCastSkill AddSkillState AddNpcSkillState SetNpcAuraSkill GetSkillState RemoveSkillState RemoveNpcSkillState ReloadSkill AddNote GetMissionV SetMissionV GetMissionS SetMissionS OpenMission CloseMission StartMissionTimer StopMissionTimer GetMSRestTime GetMSIdxGroup OpenGlbMission RunGlbMission CloseGlbMission StartGlbMSTimer StopGlbMSTimer GetGlbMissionV SetGlbMissionV AddMSPlayer DelMSPlayer GetNextPlayer PIdx2MSDIdx MSDIdx2PIdx NpcIdx2PIdx PIdx2NpcIdx GetMSPlayerCount RevivalAllNpc SetPMParam GetPMParam Msg2MSGroup Msg2MSAll Msg2MSPlayer SetDeathScript SetDeathType SetNpcDeathScript HideNpc IsNpcHide SetLogoutRV GetLogoutRV SetCreateTeam GetPK GetMateName SetPK IsForbidChangePK GetGameTime SetPKFlag ShowLadder OpenTongZhaoMu OpenTongCamp QueryTongName RenameTong GetTongMTask AddTongMTask SetTongMTask GetTongMaster GetTongFigure GetTongTitle GetTongCamp GetTongName SyncWorkshopList AddTongExp MoveTongExp AddTongMoney GetTongMemberCount GMTongAddMember GMTongSetMaster GMTongSetLevel GMTongSetExp GMTongSetAddTime GMTongDismiss GetTong GetNpcTong GetCurrentTong GetTongMemberID GetJoinTongTime SetJoinTongTime ForceLeaveTong GetTongWeek AddTongWeek SetTongWeek GetContribution AddContribution GetCumulateOffer AddCumulateOffer SetCumulateOffer GetWeeklyOffer AddWeeklyOffer SetWeeklyOffer GetTotalOffer AddTotalOffer SetTotalOffer GetWeekGoalOffer AddWeekGoalOffer SetWeekGoalOffer SwearBrother DoMarry UnMarry MakeEnemy GetPartnerBagLevel SetPartnerBagLevel SetPunish GetPunish AddProp GetProp GetExtPoint PayExtPoint AddExtPoint AddExtPointForGS UseSilver OpenDice Mantle DoSth CancelTrade CloseShop GetIsCheckNpcBarrier SetIsCheckNpcBarrier SyncIsCheckNpcBarrier GetBoxMoney AddBoxMoney ClearFactionRecord AskRelayForKillerStatus OpenCreateTask GetTaskMoney OpenAllTask OpenOwnTask QueryWiseMan QueryWiseManForSB SetPlayerLog GetStallTotal GetStallTotalTax GetTradeTotal AskRelayForAuctionStatus OpenSubmitAuction QueryAuctionItemInfo GetSaleMoney GetFailedItem HaveBeginWar GetCityAreaName GetCityWarBothSides NotifyWarResult GetCityWarTongCamp IsArenaBegin GetArenaCityArea GetArenaBothSides NotifyArenaResult GetArenaLevel GetArenaTotalLevel GetArenaSchedule GetArenaTotalLevelByCity GetArenaInfoByCity OpenCityManageUI IsSigningUp SignUpCityWarArena GetCitySummary GetCityOwner GetArenaTargetCity GetTaxCollected ForceTransferTax SetSiegeVoitureParam SetMangonelParam SetMissleStep AskClientForNumber AskClientForString GetCityArea NumOfSignUpTongs GetSignUpTongName AddObstacleObj ClearObstacleObj AddSomeObj ClearSomeObj GetLoop AppointViceroy AppointChallenger GetAllCitySummary SyncCitySummary GetExpPercent SaveQuickly SaveNow GetDiceIncome DelObject WriteGoldLog WriteSaleLog WriteStatLog WriteCompoundLog LoadMap SetDeathPunish_PK10 SetDeathReliveFlag OpenStoreBox CheckStoreBoxState SyncTaskValue SyncTaskValueMore LoginDelaySync GetTicketCount GetTicket AddTicket CheckTicket GetQAnswer GetPayTicket GetPayTicketCount GiveItemUI GetGiveItemUnit GetGiveItemUnitWithPos StartPotionCounter IncreasePotionCount GetPotionCount StopPotionCounter SetPotionCount GetAccLeftTime StartPoisonCounter IncreasePoisonCount GetPoisonCount StopPoisonCounter SetPoisonCount AddExpInMap ForbidEnmity GMSetBoxPassword GMCancleBoxPassword GMLockBox GMUnlockBox GetBoxLockState CreateChannel DeleteChannel EnterChannel LeaveChannel GetPlayerFeature ChangeOwnFeature RestoreOwnFeature IsOwnFeatureChanged ChangeNpcFeature RestoreNpcFeature IsNpcFeatureChanged Lottery_UpdateIssue Lottery_StartNewIssue Lottery_DrawCurrentIssue Lottery_GenerateItem Lottery_CheckPrize Lottery_GetDesc Lottery_GetLatestPrizeInfo Lottery_WriteLog OfflineLive SetSwitch GetSwitch GetFeeType SaveSDB2Relay GetMapInfoFile ClearMapNpc ClearMapNpcWithName ClearMapObj ClearMapTrap GetLastDamageNpc AddMapTrap DelMapTrap GetMapTrapCount QueryMapTrap Prise TellPos SetHighLightPos SendTaskOrder TaskTip AddPlayerEvent RemovePlayerEvent RemoveAllPlayerEvent NoChoice GetRoleCreateDate GetRoleCreateTime GetRoleCreateTimeData GetRoleDataTransMark SearchPlayer SearchPlayerByNameID AttachActor DetachActor IsSpectator ActorQuit DisableTeamChangeCamp GetMapNpcWithName SetNpcAI SetMoveSpeed SetAForbitSkill ForbitStamina ForbitSyncAura ForbitSyncName ForbitTalk BuildATeam QueryRoleName RenameRole ChatRoom_FindRoom ChatRoom_AddTime ChatRoom_CreateRoom ChatRoom_EnterRoom ChatRoom_LeaveRoom ChatRoom_Prevent ChatRoom_UnPrevent ChatRoom_KickOut ChatRoom_ChangePassword ChatRoom_CloseRoom GetEnhanceExpRate CalcEnhanceExp Get120SkillEnhanceExpRate SetOnlineCommissionStatus GetOnlineCommissionStatus SetPkReduceState GetPkReduceState SetHide GetBitTask SetBitTask GetRoleEquipValue GetAllEquipValue GetItemValue GetMaxResist SetMaxResist AddMaxResist SetSkillMaxLevelAddons GetSkillMaxLevelAddons GetLevelUpExp TongClaimWar IsTongWarMap NW_Enthrone NW_Abdicate NW_SetNationTitle NW_IsEmperor NW_RemarkEmperor NW_GetDuty NW_InEmperorTong NW_GetNationTitle NW_GetEmperorName NW_OpenCongratulation NW_CloseCongratulation NW_CheckText NW_AwardEmperor NW_GetRemark NW_GetTask NW_SetTask NW_Levy NW_ForbidChat NW_GetSealInfo NW_OwnSeal NW_Instate NW_Dismiss NW_EmperorHistoryCount NW_EmperorHistory IsGSHaveFreeMap PreApplyDungeonMap ReturnDungenonMap ApplyDelDungeonMap GetPvPKilledNum AddPvPKilledNum GetGlobalTradeFlag SetGlobalTradeFlag CheckGlobalTradeFlag SetPlatinaMagicIndex GetPtMagicAttrExValue SetProgressBarEvent ClearProgressBarEvent GetProgressBarMaskEvent OpenProgressBar OutputMonsterPos AddTimer DelTimer GetRespect AddRespect ReduceRespect SetRespect GetArenaCredits AddArenaCredits ReduceArenaCredits SetArenaCredits GetEnergy AddEnergy ReduceEnergy SetEnergy AbradeEquipments SendScriptData GetNpcFreeCount CallPlayerFunction GetTmpCamp SetTmpCamp GetLastLogoutTime SetLastLogoutTime GetLastOfflineTime SetLastOfflineTime GetLoginTime GetLastExchangeTime SetDebugOut CheckPlayerFlag SetPlayerFlag TripC_Apply TripC_Kick TripC_GetServerCount TripC_GetServerName TripS_Return AddLoaclTimeNews KickOutAccount DoRelayScript DRS RemoteExecute AddStatData SetStatData GetTripMode AddBreakPoint DelBreakPoint cn cn_ib     €¿Can Not CastSkill%d, Level %d ,It is not a  Ordin Skill
+Title_GetActiveTitle()
+Title_GetTitleName(TitleID)
+Title_RemoveTitle(TitleID)
+Title_AddTitle(TitleID, 2, nTitleExpiredTime)
+Title_ActiveTitle(TitleID)
+TASK_ACTIVE_TITLE = 1122
+
+ SearchPlayer 
+ AddRepute 
+ LoadMap 
+ OpenCityManageUI
+ Describe
+ GetTeam 
+ GetTeamSize
+ LeaveTeam 
+ DynamicExecute 
+ DynamicExecuteByPlayer    
+ QueryWiseMan
+ JoinMission
+ InitMission
+ EndMission
+ RunMission 
+ OB_Create 
+ OB_Release 
+ OB_Copy 
+ OB_Append 
+ OB_Clear 
+ OB_IsEmpty 
+ OB_PushString 
+ OB_PopString 
+ OB_PushDouble 
+ OB_PopDouble 
+ OB_PushByte 
+ OB_PopByte 
+ OB_PushInt 
+ OB_PopInt 
+ DbgPoint 
+ TestScript 
+ IncludeLib
+ Include 
+ ReplaceString 
+ AppendString 
+ LeftFillString 
+ RightFillString 
+ AroundFillString 
+ LeftTrimString 
+ RightTrimString 
+ GetBit 
+ GetByte 
+ SetBit 
+ SetByte 
+ Number2Int 
+ Number2UInt 
+ Say 
+ PutMessage 
+ AddGlobalNews 
+ AddGlobalTimeNews 
+ AddGlobalCountNews 
+ AddLocalNews 
+ AddLocalTimeNews 
+ AddLocalCountNews 
+ EnchaseItem 
+ GetItemParam 
+ GetItemAllParams 
+ SetSpecItemParam 
+ GetItemProp 
+ GetItemLevel 
+ GetItemSeries 
+ GetItemQuality 
+ GetTotalMagicLevel 
+ GetRepairDurPrice 
+ GetItemName 
+ GetItemPrice 
+ GetGlodEqIndex 
+ GetPlatinaEquipIndex 
+ GetItemWidth 
+ GetItemHeight 
+ GetQuestion 
+ GetQuestionTip 
+ GetChooseCount 
+ GetQuestionPrice 
+ GetChoose 
+ GetQEndTime 
+ GetQBeginTime 
+ HaveMagic 
+ PlayMusic 
+ FadeInMusic 
+ FadeOutMusic 
+ FileName2Id 
+ String2Id 
+ GetStringTask 
+ SetStringTask
+GetCurrentTime 
+Tm2Time 
+Time2Tm 
+FormatTime2Number 
+FormatTime2String 
+FormatTime2Date 
+GetSkillName 
+MagicAttrib2Str 
+SetRandSeed 
+C_Random 
+NpcChat 
+GetServiceMatchID 
+GetAroundNpcList 
+GetLastFactionNumber 
+GetProductLanguge 
+GetProductRegion 
+SetNpcTimer 
+GetNpcTimer 
+IsOpeningModule 
+NpcName2Replace 
+ObjName2Relace 
+GetGoldCoinCount 
+GetCurServerTime 
+GetAroundPlayerList 
+GetNpcAroundPlayerList 
+GetMapPlayerList 
+GetTiredDegree 
+GetTireTime 
+GetRelaxTime 
+SetTireTime 
+SetRelaxTime 
+GetGateWayClientID 
+GetLocalDate 
+GetLocalTime 
+MakeDateTime 
+GetNewBulletin 
+SetSex 
+SetGlbValue 
+GetGlbValue 
+GetRepute 
+GetNpcIdx 
+GetTimerId 
+IsCaptain 
+GetTeamMember 
+ChangeTeamFeature 
+Msg2Faction 
+GMMsg2Player 
+Msg2Team 
+Msg2Tong 
+Msg2SubWorld 
+Msg2Map 
+Msg2Region 
+Msg2GM 
+Msg2IP 
+UpdateSDBRecord 
+GetInfo 
+GetIP 
+GetAccount 
+SetPos 
+GetPos 
+AutoStackItem 
+GetWorldPos 
+NewItemEx 
+AddItem 
+AddItemIntoEquipmentBox 
+AddItemNoStack 
+AddVerItem 
+AddItemEx 
+GetItemCmd 
+HandItemIdx 
+AddPlatinaItem 
+AddTempItem 
+AddQualityItem 
+AddStackItem 
+DelItem 
+DelCommonItem 
+DelItemEx 
+DropItem 
+DropItemEx 
+NpcDropMoney 
+GetItemLife 
+HaveItem 
+HaveCommonItem 
+GetItemCount 
+GetItemCountEx 
+GetTotalItemCount 
+AddItemByIndex 
+RemoveItemByIndex 
+SaveMaskFeature 
+GetMaskFeature 
+GetOrgMaxDurability 
+SetMaxDurability 
+GetMaxDurability 
+GetCurDurability 
+EH_SetCurDurability 
+GetItemGenTime 
+UnBindItem 
+GetItemBindState 
+SetItemBindState 
+GetItemBelong 
+FindSpecItemParam2 
+SyncItem 
+SyncNpc 
+IsItemStackable 
+GetItemMagicLevel 
+IsSeriesConquer 
+IsSeriesAccrue 
+GetConquerSeries 
+GetAccrueSeries 
+SetItemNewFeature 
+GetItemMaxStackCount 
+GetItemStackCount 
+SetItemStackCount 
+CalcEquiproomItemCount 
+GetNextItemIndexInRoom 
+GetAllEquipment 
+GetRoomItems 
+ConsumeEquiproomItem 
+CalcItemCount 
+ConsumeItem 
+GetItemMagicAttrib 
+SetItemMagicLevel 
+GetItemExchangeValue 
+SetItemExchangeValue 
+GetItemFortuneValue 
+SetItemFortuneValue 
+SetPlayerFortuneRank 
+GetPlayerFortuneRank 
+IsMyItem 
+CalcFreeItemCellCount 
+FindFreeRoomByWH 
+CountFreeRoomByWH 
+ThrowAllItem 
+SetDupedDealLevel 
+SetDelDupedAllInOne 
+GetDupedDealLevel 
+GetDelDupedAllInOne 
+FoundryItem 
+PreviewPlatinaFromGold 
+PreviewPlatinaUpgrade 
+GetItemMagicDesc 
+UpgradePlatinaFromGoldItem 
+UpgradePlatinaItem 
+GetPlatinaLevel 
+AddMoneyObj 
+SubWorldID2Idx 
+SubWorldIdx2ID 
+SubWorldIdx2MapCopy 
+SetWorldName 
+SetMapType 
+SetMapParam 
+GetMapType 
+GetMapParam 
+GetFirstPlayerAtSW 
+GetNextPlayerAtSW 
+GetFirstPlayerAtServer 
+GetNextPlayerAtServer 
+GetAutoHangExpValue 
+SetDisabledFuncFlag 
+GetDisabledFuncFlag 
+IsDisabledChatWorld 
+IsDisabledChatCity 
+IsDisabledTeam 
+IsDisabledStall 
+IsDisabledUseTownP 
+IsDisabledUseHeart 
+SetAutoHangMapFlag 
+SetAutoHangFreeFlag 
+AddItemForAutoHang 
+CalcAutoHangPlayerCount 
+TimerFuncForAutoHang 
+AddLeadExp 
+GetLeadLevel 
+SetFightState 
+GetFightState 
+GetNpcKind 
+SetNpcKind 
+AddNpc 
+AddNpcEx 
+DelNpc 
+GetNpcId 
+SetNpcScript 
+GetNpcScript 
+GetNpcDropRateFile 
+GetMapDropRateFile 
+SetNpcParam 
+GetNpcParam 
+GetNpcName 
+GetNpcSeries 
+GetNpcLife 
+GetNpcPos 
+GetNpcSettingIdx 
+GetNpcPowerType 
+NpcWalk 
+SetNpcActiveRegion 
+SetRevPos 
+SetTempRevPos 
+RevID2WXY 
+GetPlayerRev 
+GetCamp 
+SetCurCamp 
+SetCamp 
+RestoreCamp 
+GetFaction 
+SetFaction 
+GetLastAddFaction 
+GetColdR 
+SetColdR 
+GetFireR 
+SetFireR 
+GetLightR 
+SetLightR 
+GetPoisonR 
+SetPoisonR 
+GetPhyR 
+SetPhyR 
+AddOwnExp 
+StackExp 
+GetLevelExp 
+ReduceOwnExp 
+GetLife 
+RestoreLife 
+GetMana 
+RestoreMana 
+GetStamina 
+RestoreStamina 
+GetDefend 
+SetSeries 
+GetUUID 
+GetLeadExp 
+GetRestAP 
+GetRestSP 
+GetLucky 
+SetLucky 
+GetEng 
+GetDex 
+GetStrg 
+GetVit 
+AddEng 
+AddDex 
+AddStrg 
+AddVit 
+GetPlayerMagicAttrib 
+SetLastFactionNumber 
+GetProtectTime 
+SetProtectTime 
+GetCash 
+Earn 
+PrePay 
+GetCashCoin 
+PayCoin 
+ExeScript 
+AttackNpc 
+KillNpc 
+KillNpcWithIdx 
+Sale 
+CreateStores 
+AddShop2Stores 
+OpenStores 
+GetDynamicShopID 
+TRepair 
+OpenHelp 
+Repair_Open 
+UseTownPortal 
+ReturnFromPortal 
+GetNpcCurCamp 
+SetNpcCurCamp 
+OpenBox 
+AddStation 
+DelStationList 
+AddTermini 
+GetStation 
+GetStationCount 
+GetLastDiagNpc 
+GetLastDlgNpc 
+GetCityCount 
+GetCity 
+GetWayPoint 
+GetStationName 
+GetWayPointName 
+GetPrice2Station 
+GetPrice2WayPoint 
+GetStationPos 
+GetWayPointPos 
+GetPlayerCount 
+GetRank 
+SetRank 
+SetPropState 
+GetWharfName 
+GetWharfCount 
+GetWharfPrice 
+GetWharf 
+GetWharfPos 
+GetTerminiFState 
+KickOutPlayer 
+KickOutSelf 
+SetChatFlag 
+GetSkillCount 
+GetSkillId 
+AddMagic 
+DelMagic 
+AddTempMagic 
+SetImmedSkill 
+GetCurrentMagicLevel 
+SetSkillLevel 
+GetAllSkillCurInc 
+GetSkillMaxLevel 
+GetSkillExp 
+AddSkillExp 
+GetSkillNextExp 
+Add120SkillExp 
+Set120SkillID 
+Clear120SkillExpLimit 
+AddMagicPoint 
+GetMagicPoint 
+GetTotalSkill 
+RollbackSkill 
+UpdateSkill 
+ForbitAura 
+NpcCastSkill 
+AddSkillState 
+AddNpcSkillState 
+SetNpcAuraSkill 
+GetSkillState 
+RemoveSkillState 
+RemoveNpcSkillState 
+ReloadSkill 
+AddNote 
+GetMissionV 
+SetMissionV 
+GetMissionS 
+SetMissionS 
+OpenMission 
+CloseMission 
+StartMissionTimer 
+StopMissionTimer 
+GetMSRestTime 
+GetMSIdxGroup 
+OpenGlbMission 
+RunGlbMission 
+CloseGlbMission 
+StartGlbMSTimer 
+StopGlbMSTimer 
+GetGlbMissionV 
+SetGlbMissionV 
+AddMSPlayer 
+DelMSPlayer 
+GetNextPlayer 
+PIdx2MSDIdx 
+MSDIdx2PIdx 
+NpcIdx2PIdx 
+PIdx2NpcIdx 
+GetMSPlayerCount 
+RevivalAllNpc 
+SetPMParam 
+GetPMParam 
+Msg2MSGroup 
+Msg2MSAll 
+Msg2MSPlayer 
+SetDeathScript 
+SetDeathType 
+SetNpcDeathScript 
+HideNpc 
+IsNpcHide 
+SetLogoutRV 
+GetLogoutRV 
+SetCreateTeam 
+GetPK 
+GetMateName 
+SetPK 
+IsForbidChangePK 
+GetGameTime 
+SetPKFlag 
+ShowLadder 
+OpenTongZhaoMu 
+OpenTongCamp 
+QueryTongName 
+RenameTong 
+GetTongMTask 
+AddTongMTask 
+SetTongMTask 
+GetTongMaster 
+GetTongFigure 
+GetTongTitle 
+GetTongCamp 
+GetTongName 
+SyncWorkshopList 
+AddTongExp 
+MoveTongExp 
+AddTongMoney 
+GetTongMemberCount 
+GMTongAddMember 
+GMTongSetMaster 
+GMTongSetLevel 
+GMTongSetExp 
+GMTongSetAddTime 
+GMTongDismiss 
+GetTong 
+GetNpcTong 
+GetCurrentTong 
+GetTongMemberID 
+GetJoinTongTime 
+SetJoinTongTime 
+ForceLeaveTong 
+GetTongWeek 
+AddTongWeek 
+SetTongWeek 
+GetContribution 
+AddContribution 
+GetCumulateOffer 
+AddCumulateOffer 
+SetCumulateOffer 
+GetWeeklyOffer 
+AddWeeklyOffer 
+SetWeeklyOffer 
+GetTotalOffer 
+AddTotalOffer 
+SetTotalOffer 
+GetWeekGoalOffer 
+AddWeekGoalOffer 
+SetWeekGoalOffer 
+SwearBrother 
+DoMarry 
+UnMarry 
+MakeEnemy 
+GetPartnerBagLevel 
+SetPartnerBagLevel 
+SetPunish 
+GetPunish 
+AddProp 
+GetProp 
+GetExtPoint 
+PayExtPoint 
+AddExtPoint 
+AddExtPointForGS 
+UseSilver 
+OpenDice 
+Mantle 
+DoSth 
+CancelTrade 
+CloseShop 
+GetIsCheckNpcBarrier 
+SetIsCheckNpcBarrier 
+SyncIsCheckNpcBarrier 
+GetBoxMoney 
+AddBoxMoney 
+ClearFactionRecord 
+AskRelayForKillerStatus 
+OpenCreateTask 
+GetTaskMoney 
+OpenAllTask 
+OpenOwnTask 
+QueryWiseManForSB 
+SetPlayerLog 
+GetStallTotal 
+GetStallTotalTax 
+GetTradeTotal 
+AskRelayForAuctionStatus 
+OpenSubmitAuction 
+QueryAuctionItemInfo 
+GetSaleMoney 
+GetFailedItem 
+HaveBeginWar 
+GetCityAreaName -- lÊy tªn Thµnh thÞ bëi nCan
+GetCityWarBothSides 
+NotifyWarResult 
+GetCityWarTongCamp 
+IsArenaBegin 
+GetArenaCityArea 
+GetArenaBothSides 
+NotifyArenaResult 
+GetArenaLevel 
+GetArenaTotalLevel 
+GetArenaSchedule 
+GetArenaTotalLevelByCity 
+GetArenaInfoByCity 
+IsSigningUp 
+SignUpCityWarArena 
+GetCitySummary 
+GetCityOwner 
+GetArenaTargetCity 
+GetTaxCollected 
+ForceTransferTax 
+SetSiegeVoitureParam 
+SetMangonelParam 
+SetMissleStep 
+AskClientForNumber 
+AskClientForString 
+GetCityArea 
+NumOfSignUpTongs 
+GetSignUpTongName 
+AddObstacleObj 
+ClearObstacleObj 
+AddSomeObj 
+ClearSomeObj 
+GetLoop 
+AppointViceroy 
+AppointChallenger 
+GetAllCitySummary 
+SyncCitySummary 
+GetExpPercent 
+SaveQuickly 
+SaveNow 
+GetDiceIncome 
+DelObject 
+WriteGoldLog 
+WriteSaleLog 
+WriteStatLog 
+WriteCompoundLog 
+SetDeathPunish_PK10 
+SetDeathReliveFlag 
+OpenStoreBox 
+CheckStoreBoxState 
+SyncTaskValue 
+SyncTaskValueMore 
+LoginDelaySync 
+GetTicketCount 
+GetTicket 
+AddTicket 
+CheckTicket 
+GetQAnswer 
+GetPayTicket 
+GetPayTicketCount 
+GiveItemUI 
+GetGiveItemUnit 
+GetGiveItemUnitWithPos 
+StartPotionCounter 
+IncreasePotionCount 
+GetPotionCount 
+StopPotionCounter 
+SetPotionCount 
+GetAccLeftTime 
+StartPoisonCounter 
+IncreasePoisonCount 
+GetPoisonCount 
+StopPoisonCounter 
+SetPoisonCount 
+AddExpInMap 
+ForbidEnmity 
+GMSetBoxPassword 
+GMCancleBoxPassword 
+GMLockBox 
+GMUnlockBox 
+GetBoxLockState 
+CreateChannel 
+DeleteChannel 
+EnterChannel 
+LeaveChannel 
+GetPlayerFeature 
+ChangeOwnFeature 
+RestoreOwnFeature 
+IsOwnFeatureChanged 
+ChangeNpcFeature 
+RestoreNpcFeature 
+IsNpcFeatureChanged 
+Lottery_UpdateIssue 
+Lottery_StartNewIssue 
+Lottery_DrawCurrentIssue 
+Lottery_GenerateItem 
+Lottery_CheckPrize 
+Lottery_GetDesc 
+Lottery_GetLatestPrizeInfo 
+Lottery_WriteLog 
+OfflineLive 
+SetSwitch 
+GetSwitch 
+GetFeeType 
+SaveSDB2Relay 
+GetMapInfoFile 
+ClearMapNpc 
+ClearMapNpcWithName 
+ClearMapObj 
+ClearMapTrap 
+GetLastDamageNpc 
+AddMapTrap 
+DelMapTrap 
+GetMapTrapCount 
+QueryMapTrap 
+Prise 
+TellPos 
+SetHighLightPos 
+SendTaskOrder 
+TaskTip 
+AddPlayerEvent 
+RemovePlayerEvent 
+RemoveAllPlayerEvent 
+NoChoice 
+GetRoleCreateDate 
+GetRoleCreateTime 
+GetRoleCreateTimeData 
+GetRoleDataTransMark 
+SearchPlayerByNameID 
+AttachActor 
+DetachActor 
+IsSpectator 
+ActorQuit 
+DisableTeamChangeCamp 
+GetMapNpcWithName 
+SetNpcAI 
+SetMoveSpeed 
+SetAForbitSkill 
+ForbitStamina 
+ForbitSyncAura 
+ForbitSyncName 
+ForbitTalk 
+BuildATeam 
+QueryRoleName 
+RenameRole 
+ChatRoom_FindRoom 
+ChatRoom_AddTime 
+ChatRoom_CreateRoom 
+ChatRoom_EnterRoom 
+ChatRoom_LeaveRoom 
+ChatRoom_Prevent 
+ChatRoom_UnPrevent 
+ChatRoom_KickOut 
+ChatRoom_ChangePassword 
+ChatRoom_CloseRoom 
+GetEnhanceExpRate 
+CalcEnhanceExp 
+Get120SkillEnhanceExpRate 
+SetOnlineCommissionStatus 
+GetOnlineCommissionStatus 
+SetPkReduceState 
+GetPkReduceState 
+SetHide 
+GetBitTask 
+SetBitTask 
+GetRoleEquipValue 
+GetAllEquipValue 
+GetItemValue 
+GetMaxResist 
+SetMaxResist 
+AddMaxResist 
+SetSkillMaxLevelAddons 
+GetSkillMaxLevelAddons 
+GetLevelUpExp 
+TongClaimWar 
+IsTongWarMap 
+NW_Enthrone 
+NW_Abdicate 
+NW_SetNationTitle 
+NW_IsEmperor 
+NW_RemarkEmperor 
+NW_GetDuty 
+NW_InEmperorTong 
+NW_GetNationTitle 
+NW_GetEmperorName 
+NW_OpenCongratulation 
+NW_CloseCongratulation 
+NW_CheckText 
+NW_AwardEmperor 
+NW_GetRemark 
+NW_GetTask 
+NW_SetTask 
+NW_Levy 
+NW_ForbidChat 
+NW_GetSealInfo 
+NW_OwnSeal 
+NW_Instate 
+NW_Dismiss 
+NW_EmperorHistoryCount 
+NW_EmperorHistory 
+IsGSHaveFreeMap 
+PreApplyDungeonMap 
+ReturnDungenonMap 
+ApplyDelDungeonMap 
+GetPvPKilledNum 
+AddPvPKilledNum 
+GetGlobalTradeFlag 
+SetGlobalTradeFlag 
+CheckGlobalTradeFlag 
+SetPlatinaMagicIndex 
+GetPtMagicAttrExValue 
+SetProgressBarEvent 
+ClearProgressBarEvent 
+GetProgressBarMaskEvent 
+OpenProgressBar 
+OutputMonsterPos 
+AddTimer 
+DelTimer 
+GetRespect 
+AddRespect 
+ReduceRespect 
+SetRespect 
+GetArenaCredits 
+AddArenaCredits 
+ReduceArenaCredits 
+SetArenaCredits 
+GetEnergy 
+AddEnergy 
+ReduceEnergy 
+SetEnergy 
+AbradeEquipments 
+SendScriptData 
+GetNpcFreeCount 
+CallPlayerFunction 
+GetTmpCamp 
+SetTmpCamp 
+GetLastLogoutTime 
+SetLastLogoutTime 
+GetLastOfflineTime 
+SetLastOfflineTime 
+GetLoginTime 
+GetLastExchangeTime 
+SetDebugOut 
+CheckPlayerFlag 
+SetPlayerFlag 
+TripC_Apply 
+TripC_Kick 
+TripC_GetServerCount 
+TripC_GetServerName 
+TripS_Return 
+AddLoaclTimeNews 
+KickOutAccount 
+DoRelayScript 
+DRS 
+RemoteExecute 
+AddStatData 
+SetStatData 
+GetTripMode 
+AddBreakPoint 
+DelBreakPoint  

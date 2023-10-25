@@ -1,6 +1,7 @@
 # jx-CTC
 
 #Requirement
++ Source code of shared library, can extend and maintainance
 + Override KBuySell::Buy funtion on /server1/jx_linux_y
 + Compile with gcc C++11 32bit, shared library
 + Fix core dump for KBuySell::Buy when input parameter:
